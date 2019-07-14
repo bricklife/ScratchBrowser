@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         let script: WKUserScript = WKUserScript(source: source, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
         webView.configuration.userContentController.addUserScript(script)
         
+        webView.scrollView.isScrollEnabled = false
+        
         let url = URL(string: "https://scratch.mit.edu/projects/editor/")!
         let request = URLRequest(url: url)
         webView.load(request)
