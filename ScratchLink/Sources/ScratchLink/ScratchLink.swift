@@ -52,20 +52,14 @@ public class ScratchLink {
     
     func handleRequest(request: HTTPRequest, response: HTTPResponse) {
         print("request path: \(request.path)")
-        if request.path == "/scratch/ble" {
-            do {
-                try sessionManager
-                    .makeSessionHandler(forRequest: request)
-                    .handleRequest(request: request, response: response)
-            } catch {
-                response.setBody(string: "Session init failed")
-                response.setHeader(.contentLength, value: "\(response.bodyBytes.count)")
-                response.completed(status: .internalServerError)
-            }
-        } else {
-            response.setBody(string: "Unrecognized path: \(request.path)")
+        do {
+            try sessionManager
+                .makeSessionHandler(forRequest: request)
+                .handleRequest(request: request, response: response)
+        } catch {
+            response.setBody(string: "Session init failed")
             response.setHeader(.contentLength, value: "\(response.bodyBytes.count)")
-            response.completed(status: .notFound)
+            response.completed(status: .internalServerError)
         }
     }
 }
