@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3999EF231E4C31006BAEA4 /* ScratchLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D8231E4C0F006BAEA4 /* ScratchLink.framework */; };
+		CB3999F0231E4C31006BAEA4 /* ScratchLink.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D8231E4C0F006BAEA4 /* ScratchLink.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB3999F3231E4C31006BAEA4 /* PerfectWebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D6231E4C0F006BAEA4 /* PerfectWebSockets.framework */; };
+		CB3999F4231E4C31006BAEA4 /* PerfectWebSockets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D6231E4C0F006BAEA4 /* PerfectWebSockets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB3999F7231E4C31006BAEA4 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999C4231E4C0F006BAEA4 /* COpenSSL.framework */; };
+		CB3999F8231E4C31006BAEA4 /* COpenSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999C4231E4C0F006BAEA4 /* COpenSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB3999FB231E4C31006BAEA4 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999CE231E4C0F006BAEA4 /* PerfectHTTPServer.framework */; };
+		CB3999FC231E4C31006BAEA4 /* PerfectHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999CE231E4C0F006BAEA4 /* PerfectHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB3999FF231E4C31006BAEA4 /* PerfectCZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999C8231E4C0F006BAEA4 /* PerfectCZlib.framework */; };
+		CB399A00231E4C31006BAEA4 /* PerfectCZlib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999C8231E4C0F006BAEA4 /* PerfectCZlib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB399A03231E4C31006BAEA4 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D2231E4C0F006BAEA4 /* PerfectNet.framework */; };
+		CB399A04231E4C31006BAEA4 /* PerfectNet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D2231E4C0F006BAEA4 /* PerfectNet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB399A07231E4C31006BAEA4 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999CC231E4C0F006BAEA4 /* PerfectHTTP.framework */; };
+		CB399A08231E4C31006BAEA4 /* PerfectHTTP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999CC231E4C0F006BAEA4 /* PerfectHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB399A0B231E4C31006BAEA4 /* PerfectCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999CA231E4C0F006BAEA4 /* PerfectCrypto.framework */; };
+		CB399A0C231E4C31006BAEA4 /* PerfectCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999CA231E4C0F006BAEA4 /* PerfectCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB399A0F231E4C31006BAEA4 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D4231E4C0F006BAEA4 /* PerfectThread.framework */; };
+		CB399A10231E4C31006BAEA4 /* PerfectThread.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D4231E4C0F006BAEA4 /* PerfectThread.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB399A13231E4C31006BAEA4 /* PerfectCHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999C6231E4C0F006BAEA4 /* PerfectCHTTPParser.framework */; };
+		CB399A14231E4C31006BAEA4 /* PerfectCHTTPParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999C6231E4C0F006BAEA4 /* PerfectCHTTPParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB399A17231E4C31006BAEA4 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D0231E4C0F006BAEA4 /* PerfectLib.framework */; };
+		CB399A18231E4C31006BAEA4 /* PerfectLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D0231E4C0F006BAEA4 /* PerfectLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB399A1D231EA170006BAEA4 /* scratch-device-manager.pem in Resources */ = {isa = PBXBuildFile; fileRef = CB399A1C231EA16F006BAEA4 /* scratch-device-manager.pem */; };
 		CB45E3B522228DA100B3E273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45E3B422228DA100B3E273 /* AppDelegate.swift */; };
 		CB45E3B722228DA100B3E273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45E3B622228DA100B3E273 /* ViewController.swift */; };
 		CB45E3BA22228DA100B3E273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB45E3B822228DA100B3E273 /* Main.storyboard */; };
@@ -15,7 +38,190 @@
 		CB60B55E2256498E00D51C1A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB60B55D2256498E00D51C1A /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CB3999C3231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "COpenSSL::COpenSSL::Product";
+			remoteInfo = COpenSSL;
+		};
+		CB3999C5231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectHTTPServer::PerfectCHTTPParser::Product";
+			remoteInfo = PerfectCHTTPParser;
+		};
+		CB3999C7231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectCZlib::PerfectCZlib::Product";
+			remoteInfo = PerfectCZlib;
+		};
+		CB3999C9231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto::Product";
+			remoteInfo = PerfectCrypto;
+		};
+		CB3999CB231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectHTTP::PerfectHTTP::Product";
+			remoteInfo = PerfectHTTP;
+		};
+		CB3999CD231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectHTTPServer::PerfectHTTPServer::Product";
+			remoteInfo = PerfectHTTPServer;
+		};
+		CB3999CF231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectLib::PerfectLib::Product";
+			remoteInfo = PerfectLib;
+		};
+		CB3999D1231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectNet::PerfectNet::Product";
+			remoteInfo = PerfectNet;
+		};
+		CB3999D3231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectThread::PerfectThread::Product";
+			remoteInfo = PerfectThread;
+		};
+		CB3999D5231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "PerfectWebSockets::PerfectWebSockets::Product";
+			remoteInfo = PerfectWebSockets;
+		};
+		CB3999D7231E4C0F006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "ScratchLink::ScratchLink::Product";
+			remoteInfo = ScratchLink;
+		};
+		CB3999F1231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "ScratchLink::ScratchLink";
+			remoteInfo = ScratchLink;
+		};
+		CB3999F5231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectWebSockets::PerfectWebSockets";
+			remoteInfo = PerfectWebSockets;
+		};
+		CB3999F9231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "COpenSSL::COpenSSL";
+			remoteInfo = COpenSSL;
+		};
+		CB3999FD231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTPServer::PerfectHTTPServer";
+			remoteInfo = PerfectHTTPServer;
+		};
+		CB399A01231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCZlib::PerfectCZlib";
+			remoteInfo = PerfectCZlib;
+		};
+		CB399A05231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectNet::PerfectNet";
+			remoteInfo = PerfectNet;
+		};
+		CB399A09231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTP::PerfectHTTP";
+			remoteInfo = PerfectHTTP;
+		};
+		CB399A0D231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
+			remoteInfo = PerfectCrypto;
+		};
+		CB399A11231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectThread::PerfectThread";
+			remoteInfo = PerfectThread;
+		};
+		CB399A15231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTPServer::PerfectCHTTPParser";
+			remoteInfo = PerfectCHTTPParser;
+		};
+		CB399A19231E4C31006BAEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectLib::PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB399A1B231E4C32006BAEA4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB399A10231E4C31006BAEA4 /* PerfectThread.framework in Embed Frameworks */,
+				CB3999F8231E4C31006BAEA4 /* COpenSSL.framework in Embed Frameworks */,
+				CB3999F4231E4C31006BAEA4 /* PerfectWebSockets.framework in Embed Frameworks */,
+				CB399A08231E4C31006BAEA4 /* PerfectHTTP.framework in Embed Frameworks */,
+				CB399A00231E4C31006BAEA4 /* PerfectCZlib.framework in Embed Frameworks */,
+				CB399A18231E4C31006BAEA4 /* PerfectLib.framework in Embed Frameworks */,
+				CB399A14231E4C31006BAEA4 /* PerfectCHTTPParser.framework in Embed Frameworks */,
+				CB3999F0231E4C31006BAEA4 /* ScratchLink.framework in Embed Frameworks */,
+				CB399A0C231E4C31006BAEA4 /* PerfectCrypto.framework in Embed Frameworks */,
+				CB399A04231E4C31006BAEA4 /* PerfectNet.framework in Embed Frameworks */,
+				CB3999FC231E4C31006BAEA4 /* PerfectHTTPServer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ScratchLink.xcodeproj; path = ScratchLink/ScratchLink.xcodeproj; sourceTree = "<group>"; };
+		CB399A1C231EA16F006BAEA4 /* scratch-device-manager.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "scratch-device-manager.pem"; sourceTree = "<group>"; };
 		CB45E3B122228DA100B3E273 /* ScratchBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB45E3B422228DA100B3E273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB45E3B622228DA100B3E273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,16 +237,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB399A03231E4C31006BAEA4 /* PerfectNet.framework in Frameworks */,
+				CB399A0B231E4C31006BAEA4 /* PerfectCrypto.framework in Frameworks */,
+				CB399A0F231E4C31006BAEA4 /* PerfectThread.framework in Frameworks */,
 				CB60B55E2256498E00D51C1A /* WebKit.framework in Frameworks */,
+				CB399A17231E4C31006BAEA4 /* PerfectLib.framework in Frameworks */,
+				CB399A07231E4C31006BAEA4 /* PerfectHTTP.framework in Frameworks */,
+				CB3999FB231E4C31006BAEA4 /* PerfectHTTPServer.framework in Frameworks */,
+				CB3999F7231E4C31006BAEA4 /* COpenSSL.framework in Frameworks */,
+				CB3999F3231E4C31006BAEA4 /* PerfectWebSockets.framework in Frameworks */,
+				CB3999EF231E4C31006BAEA4 /* ScratchLink.framework in Frameworks */,
+				CB3999FF231E4C31006BAEA4 /* PerfectCZlib.framework in Frameworks */,
+				CB399A13231E4C31006BAEA4 /* PerfectCHTTPParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB3999AC231E4C0F006BAEA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3999C4231E4C0F006BAEA4 /* COpenSSL.framework */,
+				CB3999C6231E4C0F006BAEA4 /* PerfectCHTTPParser.framework */,
+				CB3999C8231E4C0F006BAEA4 /* PerfectCZlib.framework */,
+				CB3999CA231E4C0F006BAEA4 /* PerfectCrypto.framework */,
+				CB3999CC231E4C0F006BAEA4 /* PerfectHTTP.framework */,
+				CB3999CE231E4C0F006BAEA4 /* PerfectHTTPServer.framework */,
+				CB3999D0231E4C0F006BAEA4 /* PerfectLib.framework */,
+				CB3999D2231E4C0F006BAEA4 /* PerfectNet.framework */,
+				CB3999D4231E4C0F006BAEA4 /* PerfectThread.framework */,
+				CB3999D6231E4C0F006BAEA4 /* PerfectWebSockets.framework */,
+				CB3999D8231E4C0F006BAEA4 /* ScratchLink.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CB45E3A822228DA100B3E273 = {
 			isa = PBXGroup;
 			children = (
+				CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */,
 				CB45E3B322228DA100B3E273 /* ScratchBrowser */,
 				CB45E3B222228DA100B3E273 /* Products */,
 				CB60B55C2256498E00D51C1A /* Frameworks */,
@@ -64,6 +300,7 @@
 				CB45E3BB22228DA400B3E273 /* Assets.xcassets */,
 				CB45E3BD22228DA400B3E273 /* LaunchScreen.storyboard */,
 				CB45E3C022228DA400B3E273 /* Info.plist */,
+				CB399A1C231EA16F006BAEA4 /* scratch-device-manager.pem */,
 			);
 			path = ScratchBrowser;
 			sourceTree = "<group>";
@@ -86,10 +323,22 @@
 				CB45E3AD22228DA100B3E273 /* Sources */,
 				CB45E3AE22228DA100B3E273 /* Frameworks */,
 				CB45E3AF22228DA100B3E273 /* Resources */,
+				CB399A1B231E4C32006BAEA4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CB3999F2231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB3999F6231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB3999FA231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB3999FE231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB399A02231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB399A06231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB399A0A231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB399A0E231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB399A12231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB399A16231E4C31006BAEA4 /* PBXTargetDependency */,
+				CB399A1A231E4C31006BAEA4 /* PBXTargetDependency */,
 			);
 			name = ScratchBrowser;
 			productName = ScratchBrowser;
@@ -123,12 +372,98 @@
 			mainGroup = CB45E3A822228DA100B3E273;
 			productRefGroup = CB45E3B222228DA100B3E273 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CB3999AC231E4C0F006BAEA4 /* Products */;
+					ProjectRef = CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CB45E3B022228DA100B3E273 /* ScratchBrowser */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CB3999C4231E4C0F006BAEA4 /* COpenSSL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = COpenSSL.framework;
+			remoteRef = CB3999C3231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999C6231E4C0F006BAEA4 /* PerfectCHTTPParser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectCHTTPParser.framework;
+			remoteRef = CB3999C5231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999C8231E4C0F006BAEA4 /* PerfectCZlib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectCZlib.framework;
+			remoteRef = CB3999C7231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999CA231E4C0F006BAEA4 /* PerfectCrypto.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectCrypto.framework;
+			remoteRef = CB3999C9231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999CC231E4C0F006BAEA4 /* PerfectHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectHTTP.framework;
+			remoteRef = CB3999CB231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999CE231E4C0F006BAEA4 /* PerfectHTTPServer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectHTTPServer.framework;
+			remoteRef = CB3999CD231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999D0231E4C0F006BAEA4 /* PerfectLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectLib.framework;
+			remoteRef = CB3999CF231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999D2231E4C0F006BAEA4 /* PerfectNet.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectNet.framework;
+			remoteRef = CB3999D1231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999D4231E4C0F006BAEA4 /* PerfectThread.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectThread.framework;
+			remoteRef = CB3999D3231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999D6231E4C0F006BAEA4 /* PerfectWebSockets.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PerfectWebSockets.framework;
+			remoteRef = CB3999D5231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB3999D8231E4C0F006BAEA4 /* ScratchLink.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ScratchLink.framework;
+			remoteRef = CB3999D7231E4C0F006BAEA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CB45E3AF22228DA100B3E273 /* Resources */ = {
@@ -138,6 +473,7 @@
 				CB45E3BF22228DA400B3E273 /* LaunchScreen.storyboard in Resources */,
 				CB45E3BC22228DA400B3E273 /* Assets.xcassets in Resources */,
 				CB45E3BA22228DA100B3E273 /* Main.storyboard in Resources */,
+				CB399A1D231EA170006BAEA4 /* scratch-device-manager.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +490,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3999F2231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScratchLink;
+			targetProxy = CB3999F1231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB3999F6231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectWebSockets;
+			targetProxy = CB3999F5231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB3999FA231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = COpenSSL;
+			targetProxy = CB3999F9231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB3999FE231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectHTTPServer;
+			targetProxy = CB3999FD231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB399A02231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectCZlib;
+			targetProxy = CB399A01231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB399A06231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectNet;
+			targetProxy = CB399A05231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB399A0A231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectHTTP;
+			targetProxy = CB399A09231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB399A0E231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectCrypto;
+			targetProxy = CB399A0D231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB399A12231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectThread;
+			targetProxy = CB399A11231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB399A16231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectCHTTPParser;
+			targetProxy = CB399A15231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+		CB399A1A231E4C31006BAEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerfectLib;
+			targetProxy = CB399A19231E4C31006BAEA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CB45E3B822228DA100B3E273 /* Main.storyboard */ = {
@@ -296,9 +690,16 @@
 		CB45E3C422228DA400B3E273 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UV6TAX3ANB;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/ScratchLink/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
+					"$(SRCROOT)/ScratchLink/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
+					"$(SRCROOT)/ScratchLink/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+				);
 				INFOPLIST_FILE = ScratchBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,9 +715,16 @@
 		CB45E3C522228DA400B3E273 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UV6TAX3ANB;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/ScratchLink/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
+					"$(SRCROOT)/ScratchLink/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
+					"$(SRCROOT)/ScratchLink/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+				);
 				INFOPLIST_FILE = ScratchBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

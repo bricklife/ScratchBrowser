@@ -7,15 +7,22 @@
 //
 
 import UIKit
+import ScratchLink
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    let scratchLink = ScratchLink()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        do {
+            try scratchLink.startServer()
+        } catch let e {
+            print(e)
+        }
+        
         return true
     }
 
