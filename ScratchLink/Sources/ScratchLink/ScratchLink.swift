@@ -8,7 +8,6 @@
 import Foundation
 import PerfectHTTP
 import PerfectHTTPServer
-import PerfectWebSockets
 
 typealias uint8 = UInt8
 typealias uint16 = UInt16
