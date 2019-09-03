@@ -16,14 +16,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let scale: Double = 0.5
-        let source: String = "var meta = document.createElement('meta');" +
-            "meta.name = 'viewport';" +
-            //"meta.content = 'width=device-width, initial-scale=\(scale), maximum-scale=\(scale), user-scalable=no';" +
-            "meta.content = 'width=device-width, initial-scale=\(scale), user-scalable=no';" +
-            "var head = document.getElementsByTagName('head')[0];" + "head.appendChild(meta);";
-        let script: WKUserScript = WKUserScript(source: source, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
-        webView.configuration.userContentController.addUserScript(script)
+//        let scale: Double = 0.5
+//        let source: String = "var meta = document.createElement('meta');" +
+//            "meta.name = 'viewport';" +
+//            //"meta.content = 'width=device-width, initial-scale=\(scale), maximum-scale=\(scale), user-scalable=no';" +
+//            "meta.content = 'width=device-width, initial-scale=\(scale), user-scalable=no';" +
+//            "var head = document.getElementsByTagName('head')[0];" + "head.appendChild(meta);";
+//        let script: WKUserScript = WKUserScript(source: source, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
+//        webView.configuration.userContentController.addUserScript(script)
         
         webView.scrollView.isScrollEnabled = false
         
