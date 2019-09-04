@@ -14,8 +14,8 @@ ScratchBrowser is an iOS application has web browser and [Scratch Link](https://
 5. Open `ScratchBrowser.xcodeproj` and build
 
 ## ToDo
-- [] Improve stability and error handlings
-- [] Get rid of `Scratch` from the name
-- [] Enable to change the URL of Scratch 3.0
-- [] Enable to change the scale
-- [] Support file loading and saving
+- [ ] Improve stability and error handlings
+- [ ] Get rid of `Scratch` from the name
+- [ ] Enable to change the URL of Scratch 3.0
+- [ ] Enable to change the scale
+- [ ] Support file loading and saving
