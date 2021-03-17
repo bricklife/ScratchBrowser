@@ -36,6 +36,7 @@
 		CB45E3BC22228DA400B3E273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB45E3BB22228DA400B3E273 /* Assets.xcassets */; };
 		CB45E3BF22228DA400B3E273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB45E3BD22228DA400B3E273 /* LaunchScreen.storyboard */; };
 		CB60B55E2256498E00D51C1A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB60B55D2256498E00D51C1A /* WebKit.framework */; };
+		CBB9CA292602502400B82693 /* scratch-device-manager.pem.enc in Resources */ = {isa = PBXBuildFile; fileRef = CBB9CA1E2602502400B82693 /* scratch-device-manager.pem.enc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,6 +231,7 @@
 		CB45E3BE22228DA400B3E273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB45E3C022228DA400B3E273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB60B55D2256498E00D51C1A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CBB9CA1E2602502400B82693 /* scratch-device-manager.pem.enc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scratch-device-manager.pem.enc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +303,7 @@
 				CB45E3BD22228DA400B3E273 /* LaunchScreen.storyboard */,
 				CB45E3C022228DA400B3E273 /* Info.plist */,
 				CB399A1C231EA16F006BAEA4 /* scratch-device-manager.pem */,
+				CBB9CA1E2602502400B82693 /* scratch-device-manager.pem.enc */,
 			);
 			path = ScratchBrowser;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB45E3BF22228DA400B3E273 /* LaunchScreen.storyboard in Resources */,
+				CBB9CA292602502400B82693 /* scratch-device-manager.pem.enc in Resources */,
 				CB45E3BC22228DA400B3E273 /* Assets.xcassets in Resources */,
 				CB45E3BA22228DA100B3E273 /* Main.storyboard in Resources */,
 				CB399A1D231EA170006BAEA4 /* scratch-device-manager.pem in Resources */,
