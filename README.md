@@ -1,5 +1,5 @@
-# ScratchLinkBrowser
-ScratchLinkBrowser is an iOS application has web browser and [Scratch Link](https://github.com/LLK/scratch-link) function. You can use BLE devices in Scratch 3.0 on your iOS device.
+# ScratchBrowser
+ScratchBrowser is an iOS application has web browser and [Scratch Link](https://github.com/LLK/scratch-link) function. You can use BLE devices in Scratch 3.0 on your iOS device.
 
 ## Demo
 https://youtu.be/znrkpbhUhr8
