@@ -29,7 +29,6 @@
 		CB399A14231E4C31006BAEA4 /* PerfectCHTTPParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999C6231E4C0F006BAEA4 /* PerfectCHTTPParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CB399A17231E4C31006BAEA4 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D0231E4C0F006BAEA4 /* PerfectLib.framework */; };
 		CB399A18231E4C31006BAEA4 /* PerfectLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3999D0231E4C0F006BAEA4 /* PerfectLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CB399A1D231EA170006BAEA4 /* scratch-device-manager.pem in Resources */ = {isa = PBXBuildFile; fileRef = CB399A1C231EA16F006BAEA4 /* scratch-device-manager.pem */; };
 		CB45E3B522228DA100B3E273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45E3B422228DA100B3E273 /* AppDelegate.swift */; };
 		CB45E3B722228DA100B3E273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45E3B622228DA100B3E273 /* ViewController.swift */; };
 		CB45E3BA22228DA100B3E273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB45E3B822228DA100B3E273 /* Main.storyboard */; };
@@ -222,7 +221,6 @@
 
 /* Begin PBXFileReference section */
 		CB3999AB231E4C0F006BAEA4 /* ScratchLink.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ScratchLink.xcodeproj; path = ScratchLink/ScratchLink.xcodeproj; sourceTree = "<group>"; };
-		CB399A1C231EA16F006BAEA4 /* scratch-device-manager.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "scratch-device-manager.pem"; sourceTree = "<group>"; };
 		CB45E3B122228DA100B3E273 /* ScratchBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB45E3B422228DA100B3E273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB45E3B622228DA100B3E273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -302,7 +300,6 @@
 				CB45E3BB22228DA400B3E273 /* Assets.xcassets */,
 				CB45E3BD22228DA400B3E273 /* LaunchScreen.storyboard */,
 				CB45E3C022228DA400B3E273 /* Info.plist */,
-				CB399A1C231EA16F006BAEA4 /* scratch-device-manager.pem */,
 				CBB9CA1E2602502400B82693 /* scratch-device-manager.pem.enc */,
 			);
 			path = ScratchBrowser;
@@ -477,7 +474,6 @@
 				CBB9CA292602502400B82693 /* scratch-device-manager.pem.enc in Resources */,
 				CB45E3BC22228DA400B3E273 /* Assets.xcassets in Resources */,
 				CB45E3BA22228DA100B3E273 /* Main.storyboard in Resources */,
-				CB399A1D231EA170006BAEA4 /* scratch-device-manager.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
