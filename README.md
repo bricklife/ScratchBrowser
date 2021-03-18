@@ -1,6 +1,9 @@
 # ScratchBrowser
 ScratchBrowser is an iOS application has web browser and [Scratch Link](https://github.com/LLK/scratch-link) function. You can use BLE devices in Scratch 3.0 on your iOS device.
 
+## Demo
+https://youtu.be/znrkpbhUhr8
+
 ## Requirements
 - iOS 11 or higher
 - iOS device supporting Bluetooth Low Energy (BLE)
@@ -19,6 +22,3 @@ ScratchBrowser is an iOS application has web browser and [Scratch Link](https://
 - [ ] Enable to change the URL of Scratch 3.0
 - [ ] Enable to change the scale
 - [ ] Support file loading and saving
-
-## Demo
-https://youtu.be/znrkpbhUhr8
