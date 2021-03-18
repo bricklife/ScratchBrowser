@@ -7,10 +7,10 @@ ScratchBrowser is an iOS application has web browser and [Scratch Link](https://
 - BLE device supported by Scratch 3.0
 
 ## How to build
-1. Install [Xcode 10.3](https://developer.apple.com/xcode/)
+1. Install [Xcode 12](https://developer.apple.com/xcode/)
 2. Clone this repository with `ScratchLink/Sources/ScratchLink/scratch-link` submodule
 3. Run `swift package resolve` command in `ScratchLink` directory
-4. Put `scratch-device-manager.pem` somehow :sweat:
+4. Put `scratch-device-manager.pem.enc` somehow :sweat:
 5. Open `ScratchBrowser.xcodeproj` and build
 
 ## ToDo
